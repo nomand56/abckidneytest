@@ -23,10 +23,9 @@ app.use("/api/v1", require("./routes/admin/chapterRoutes"));
 app.use("/api/v1", require("./routes/admin/videosRoutes"));
 app.use("/api/v1", require("./routes/openAccess"));
 
-app.use("*" , (req,res) => {
-  res.sendFile(path.join(__dirname, "public" ,"index.html"));
-}
-)
+app.use("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"), { headers: { "Content-Type": "text/html" } });
+});
 
 const PORT = process.env.PORT || 3001
 const server = app.listen(PORT, () => {
