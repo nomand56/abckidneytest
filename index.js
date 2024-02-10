@@ -35,7 +35,7 @@ app.get('*', (req, res) => {
 });
 
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 80
 const server = app.listen(PORT, () => {
   console.log("App started at port:", PORT);
 });
