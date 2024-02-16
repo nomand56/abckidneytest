@@ -1,0 +1,124 @@
+.interactiveSliderdiv {
+  all: unset;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  margin: 1rem;
+}
+.header div,
+h1 {
+  text-align: center;
+}
+.slidercontentdiv {
+  display: inline-flex;
+  height: 100%;
+}
+.slidercontentdiv > div {
+  position: relative;
+  height: 350px;
+}
+.ECSpace {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+.range2 {
+  width: 40px;
+  height: 100%;
+  opacity: 1; 
+  margin: 0 0 80% 0;
+}
+.middlepng {
+  display: inline-block;
+  width: fit-content;
+  height: 100%;
+  text-align: center;
+}
+.svgdiv {
+  height: 100%;
+}
+
+.personimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+}
+.rightslider {
+  margin-left: 25px;
+  width: 20%;
+}
+
+.range1 {
+  margin: 0 80% 0 0;
+}
+
+.button-container{
+  margin-left: 90%;
+  /* margin-bottom: 10%; */
+}
+
+.submitbutton {
+  width: 6em;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  background-color: #30528f;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.submitbutton:hover {
+  background-color: #30528f;
+}
+
+
+@media screen and (max-width: 768px) {
+  .button-container{
+    margin-left: 0%;
+    margin-bottom: 0%;
+  }
+  .slidercontentdiv {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+.slidercontentdiv {
+  display: flex;
+  height: 100%;
+}
+
+.rightdesc {
+  display: flex;
+  flex-direction: column; 
+  position: relative;
+}
+.image-container {
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 1rem; 
+}
+
+.image-container img {
+  width: 30%; 
+}
+
+  .rightslider {
+    margin-left: 0;
+  }
+
+  .range1 {
+    margin: 0;
+  }
+
+
+}

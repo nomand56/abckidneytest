@@ -1,0 +1,145 @@
+.interactiveSliderdiv{
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    margin: 1rem;
+}
+
+ .header div, h1{
+    justify-content: center;
+ }
+
+.slidercontentdiv{
+    display: inline-flex;
+    height: 100%;
+}
+
+.slidercontentdiv > div{
+    position: relative;
+}
+
+.leftslider {
+    justify-items: right;
+    width: 12%;
+}
+
+ .ECSpace{
+    position: absolute;
+    display: float;
+    width: 100%;
+    height: auto;
+ }
+
+ .range2{
+    width: 129px !important;
+    height: 100%;
+    opacity: 100;
+    margin: 0 0 80% 0;
+ }
+
+.middlepng{
+    flex: 3;
+    display: inline-block;
+    width: fit-content;
+    height: 100%;
+    justify-content: center;
+}
+
+.svgdiv{
+    height: 100%;
+}
+
+.personimg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.persongif{
+    width: auto;
+    height: 100%;
+}
+
+.fluidChange{
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 4.3%;
+    left: 28%;
+}
+
+.rightslider {
+    flex: 1;
+    width: 15%;
+    height: 100%;
+}
+
+.fluidimg {
+    width: auto;
+    height: 33%;
+}
+ 
+.descdiv {
+    flex: 1;
+    padding: 1em;
+    position: relative;
+}
+
+.descdiv h3{
+    margin: 2em 0;
+}
+
+.descdiv p{
+    margin-bottom: 2em;
+}
+
+.hue {
+    animation: pulse 1s infinite;
+    -webkit-animation: pulse 1s infinite;
+  }
+  /* salt.module.css */
+
+/* ... existing styles ... */
+
+.correctMessage {
+    border: 1px solid green;
+    background: linear-gradient(to right, #00cc00, #006600); /* Green gradient */
+}
+
+.tryAgainMessage {
+    border: 1px solid red;
+    background: linear-gradient(to right, #ff6666, #cc0000); /* Red gradient */
+}
+
+/* ... existing styles ... */
+
+  @keyframes pulse {
+    0%   { fill: #2281cd }
+    50% { fill: #b922cd }
+    100% { fill: #2281cd }
+  }
+  
+  @media screen and (max-width: 1068px) {
+    .fluidChange {
+width: 23%;
+        top:4.3%;
+        left: 27%;
+        height: 30%;
+    }
+  
+}
+
+  @media screen and (max-width: 868px) {
+    .fluidChange {
+width: 23%;
+        top:4.3%;
+        left: 27%;
+        height: 30%;
+    }
+   
+}
+    
